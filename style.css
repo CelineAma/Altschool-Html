@@ -1,0 +1,51 @@
+img[src]{
+    border: solid 3px blue;
+    width: auto; height: 200px;
+    /*CSS style of Attribute*/
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: none;
+    /*pseudo style*/
+}
+.my_likes{
+color: red;
+text-decoration: underline;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*When using class selector, it starts with .*/
+}
+#occupation{
+color: blueviolet;
+text-decoration: underline black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*every ID selector starts with #*/
+}
+div{
+    display: block;
+    border: 1px solid red;
+    height: 50px;
+    width 50px;
+    padding: 10px;
+
+/*iNline, inline-block and block*/
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 200px;
+    border: 1px solid red;
+    grid-template-rows: minmax(100px auto);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 70px;
+    border: 1px solid red;
+}
+div :first-child{
+    order: 2;
+}
